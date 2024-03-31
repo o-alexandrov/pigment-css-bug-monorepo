@@ -9,24 +9,12 @@ interface Props {
 }
 export const getConfig = async (props: Props) => {
   return {
-    esbuild: { jsxFactory: `jsx` },
-
     plugins: [
       pigment({
         theme: extendTheme(props.theme),
         transformSx: false,
       }),
-      react({
-        jsxImportSource: `@emotion/react`,
-        babel: { plugins: [`@emotion/babel-plugin`] },
-      }),
+      react(),
     ],
-
-    optimizeDeps: {
-      include: [`@emotion/react`, `@emotion/react/jsx-dev-runtime`],
-    },
-    resolve: {
-      mainFields: [`browser`, `module`, `jsnext:main`, `jsnext`],
-    },
   } satisfies UserConfig;
 };

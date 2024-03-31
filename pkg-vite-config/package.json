@@ -1,8 +1,6 @@
 {
   "name": "@monorepo/pkg-vite-config",
   "dependencies": {
-    "@emotion/babel-plugin": "^11.11.0",
-    "@emotion/react": "^11.11.4",
     "@pigment-css/react": "0.0.4",
     "@pigment-css/vite-plugin": "0.0.4",
     "@vitejs/plugin-react": "4.2.1",
