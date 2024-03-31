@@ -1,0 +1,8 @@
+{
+  "name": "@monorepo/pkg1",
+  "scripts": {
+    "dev": "vite",
+    "start": "vite",
+    "build": "vite build"
+  }
+}

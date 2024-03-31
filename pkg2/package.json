@@ -1,0 +1,4 @@
+{
+  "name": "@monorepo/pkg2",
+  "main": "src/index.ts"
+}

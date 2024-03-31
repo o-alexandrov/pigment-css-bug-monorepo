@@ -1,21 +1,15 @@
 {
-  "scripts": {
-    "dev": "vite",
-    "start": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
-  },
+  "workspaces": [
+    "*"
+  ],
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@pigment-css/react": "0.0.3",
-    "@pigment-css/vite-plugin": "0.0.3",
-    "@types/react": "18.2.65",
-    "@types/react-dom": "18.2.21",
-    "@vitejs/plugin-react": "4.2.1",
-    "typescript": "5.4.2",
-    "vite": "^5.2.4"
+    "@types/react": "18.2.73",
+    "@types/react-dom": "18.2.23",
+    "@types/node": "^20.0.0",
+    "typescript": "5.4.3"
   }
 }
