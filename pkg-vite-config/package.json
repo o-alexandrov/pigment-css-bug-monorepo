@@ -1,9 +1,0 @@
-{
-  "name": "@monorepo/pkg-vite-config",
-  "dependencies": {
-    "@pigment-css/react": "0.0.4",
-    "@pigment-css/vite-plugin": "0.0.4",
-    "@vitejs/plugin-react": "4.2.1",
-    "vite": "^5.2.7"
-  }
-}
