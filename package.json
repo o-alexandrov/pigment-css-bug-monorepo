@@ -1,4 +1,5 @@
 {
+  "name": "pigment-css-bug",
   "workspaces": [
     "*"
   ],
